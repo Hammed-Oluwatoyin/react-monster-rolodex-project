@@ -2,7 +2,7 @@
   "name": "monster-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://Hammed-Oluwatoyin.github.io/monster-rolodex",
+  "homepage":"https://Hammed-Oluwatoyin.github.io/react-monster-rolodex-project",
   "dependencies": {
     "@babel/core": "7.5.5",
     "@svgr/webpack": "4.3.2",
