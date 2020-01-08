@@ -2,6 +2,7 @@
   "name": "monster-rolodex",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://Hammed-Oluwatoyin.github.io/monster-rolodex",
   "dependencies": {
     "@babel/core": "7.5.5",
     "@svgr/webpack": "4.3.2",
@@ -62,7 +63,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy":"yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
